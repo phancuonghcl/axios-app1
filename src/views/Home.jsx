@@ -14,7 +14,7 @@ const Home = () => {
     const getData = async () => {
         try {
             const response = await axios
-                .get('http://host.docker.internal:8094/')
+                .get('http://localhost:8094/')
                 .then((res) => {
                     return res.data
                 });
