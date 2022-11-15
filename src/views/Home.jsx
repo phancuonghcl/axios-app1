@@ -14,7 +14,7 @@ const Home = () => {
     const getData = async () => {
         try {
             const response = await axios
-                .get('http://127.0.0.1:8094/')
+                .get('http://lp-pf37ljch.geo.corp.hcl.in:8094/')
                 .then((res) => {
                     return res.data
                 });
